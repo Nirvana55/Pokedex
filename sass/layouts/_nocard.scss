@@ -1,0 +1,26 @@
+//no card
+.noCardFound {
+  width: 250px;
+  padding: 0.1em;
+
+  border-radius: 5px;
+  background: var(--pokemonYellow);
+
+  text-align: center;
+
+  @include media("<tablet") {
+    width: 210px;
+    padding: 0em;
+  }
+  .noCard__Container {
+    width: 100%;
+
+    color: var(--btnhoverColor);
+
+    font-size: 14px;
+
+    @include media("<tablet") {
+      font-size: 13px;
+    }
+  }
+}

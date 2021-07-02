@@ -1,0 +1,24 @@
+// Music Btn
+.music {
+  position: absolute;
+  top: 2%;
+  right: 1.5%;
+  #music__Btn {
+    background-color: #fdcb00;
+
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: $poppins;
+
+    border: 1px solid var(--pokemonYellow);
+
+    cursor: pointer;
+
+    i {
+      color: rgb(134, 89, 5);
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

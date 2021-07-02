@@ -1,0 +1,19 @@
+// @font-face {
+//   font-family: "pokemon_hollownormal";
+//   src: url("fonts/pokemonhollow-webfont.woff2") format("woff2"),
+//     url("fonts/pokemonhollow-webfont.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "pokemon_solidnormal";
+//   src: url("fonts/pokemonsolid-webfont.woff2") format("woff2"),
+//     url("fonts/pokemonsolid-webfont.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+$pokemonHollow: pokemon_hollownormal;
+$pokemonSolid: pokemon_solidnormal;
+$poppins: "Poppins", sans-serif;
